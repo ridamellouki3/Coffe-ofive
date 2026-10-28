@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const GOOGLE_MAPS_REVIEW_URL = 'https://www.google.com/maps/place/Cafe+O\'five';
+const GOOGLE_MAPS_REVIEW_URL = 'https://www.google.com/maps/place/Cafe+Ofive/@30.4022787,-9.5519402,17z/data=!3m1!4b1!4m6!3m5!1s0xdb3b7b4e1914ac9:0x27ba5d219e01f39d!8m2!3d30.4022787!4d-9.5493653!16s%2Fg%2F11zd3s4x5x?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D';
 
 function StarIcon({ filled = true }) {
   return (

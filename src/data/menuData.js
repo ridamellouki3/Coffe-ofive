@@ -76,7 +76,7 @@ export const MENU_ITEMS = [
     price: 16,
     category: 'coffee',
     featured: false,
-    image: 'https://images.unsplash.com/photo-1561882468-9110d70d6e88?w=600&q=80',
+    image: '/coffeCreme.jpg',
   },
   {
     id: 'espresso',
@@ -177,7 +177,7 @@ export const MENU_ITEMS = [
     price: 15,
     category: 'tea',
     featured: false,
-    image: '/milk-syrup.png',
+    image: '/Milksy.jpg',
   },
   {
     id: 'milk-verbena',
@@ -197,7 +197,7 @@ export const MENU_ITEMS = [
     price: 16,
     category: 'fresh',
     featured: false,
-    image: 'https://images.unsplash.com/photo-1553787499-6f9133242796?w=600&q=80',
+    image: '/bananaJuice.jpg',
   },
   {
     id: 'apple-juice',
@@ -233,7 +233,7 @@ export const MENU_ITEMS = [
     price: 17,
     category: 'fresh',
     featured: false,
-    image: 'https://images.unsplash.com/photo-1553530979-7ee2dd31f6d1?w=600&q=80',
+    image: '/milk-syrup.png',
   },
   {
     id: 'pineapple-juice',
@@ -260,7 +260,7 @@ export const MENU_ITEMS = [
     price: 23,
     category: 'fresh',
     featured: false,
-    image: 'https://images.unsplash.com/photo-1585032226651-759b368d7246?w=600&q=80',
+    image: '/avocadoJuice.jpg',
   },
   {
     id: 'avocado-dry-fruits',
@@ -269,7 +269,7 @@ export const MENU_ITEMS = [
     price: 25,
     category: 'fresh',
     featured: false,
-    image: 'https://images.unsplash.com/photo-1541658016709-82835106e498?w=600&q=80',
+    image: '/avocadodryfruits.jpg',
   },
   {
     id: 'lemon-juice',
@@ -287,7 +287,7 @@ export const MENU_ITEMS = [
     price: 15,
     category: 'fresh',
     featured: false,
-    image: 'https://images.unsplash.com/photo-1606914501449-5a96b6f91f40?w=600&q=80',
+    image: '/gingerJuice.jpg',
   },
 
   // ─── COLD DRINKS ────────────────────────────────────────────
@@ -307,7 +307,7 @@ export const MENU_ITEMS = [
     price: 5,
     category: 'cold',
     featured: false,
-    image: 'https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=600&q=80',
+    image: '/Aquafina.jpg',
   },
   {
     id: 'water-50',
@@ -316,7 +316,7 @@ export const MENU_ITEMS = [
     price: 10,
     category: 'cold',
     featured: false,
-    image: 'https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=600&q=80',
+    image: '/Aquafina.jpg',
   },
   {
     id: 'water-1l',
@@ -325,7 +325,7 @@ export const MENU_ITEMS = [
     price: 13,
     category: 'cold',
     featured: false,
-    image: 'https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=600&q=80',
+    image: '/Aquafina.jpg',
   },
   {
     id: 'oulmes',
@@ -334,7 +334,7 @@ export const MENU_ITEMS = [
     price: 12,
     category: 'cold',
     featured: false,
-    image: 'https://images.unsplash.com/photo-1544145945-f90425340c7e?w=600&q=80',
+    image: '/Oulmes.png',
   },
 
   // ─── HARRIRA SOUP ───────────────────────────────────────────

@@ -1,11 +1,7 @@
-import { useState, useEffect } from 'react';
-import { QRCodeSVG } from 'qrcode.react';
+import { useState } from 'react';
 
 const WIFI_SSID = 'Cafe Ofive';
 const WIFI_PASSWORD = '10203026';
-const WIFI_TYPE = 'WPA';
-// Wi-Fi QR string format: WIFI:T:WPA;S:<ssid>;P:<password>;;
-const WIFI_QR_STRING = `WIFI:T:${WIFI_TYPE};S:${WIFI_SSID};P:${WIFI_PASSWORD};;`;
 
 function CopyToast({ show }) {
   if (!show) return null;
@@ -129,12 +125,11 @@ export default function Wifi({ lang }) {
 
         <div className="qr-section">
           <div className="qr-wrap">
-            <QRCodeSVG
-              value={WIFI_QR_STRING}
-              size={180}
-              bgColor="#ffffff"
-              fgColor="#0d0b09"
-              level="M"
+            {/* The dot-slash (./) ensures GitHub Pages resolves the image relative to your index.html */}
+            <img 
+              src="./wifi-qr.png" 
+              alt="Wi-Fi QR Code" 
+              style={{ width: 180, height: 180, objectFit: 'contain' }}
             />
           </div>
           <p style={{ marginTop: 16, fontSize: 13, color: 'var(--gray-mid)' }}>

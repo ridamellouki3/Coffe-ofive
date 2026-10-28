@@ -62,7 +62,7 @@ export default function Footer({ lang }) {
             <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
           </svg>
         </a>
-        <a href="#" className="social-icon" aria-label="Location">
+        <a href="https://www.google.com/maps/place/Cafe+Ofive/@30.4022787,-9.5519402,17z/data=!3m1!4b1!4m6!3m5!1s0xdb3b7b4e1914ac9:0x27ba5d219e01f39d!8m2!3d30.4022787!4d-9.5493653!16s%2Fg%2F11zd3s4x5x?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D" className="social-icon" aria-label="Location">
           <svg width="15" height="15" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24">
             <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
             <circle cx="12" cy="10" r="3" />
