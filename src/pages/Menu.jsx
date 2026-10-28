@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { CATEGORIES, MENU_ITEMS } from '../data/menuData';
+import { getImg } from '../utils';
 
 const CATEGORY_ICONS = {
   all: (
@@ -43,7 +44,7 @@ function MenuItemCard({ item, lang }) {
     <div className="menu-item">
       <div className="menu-item-img-wrap">
         <img
-          src={item.image}
+          src={getImg(item.image)}
           alt={lang === 'en' ? item.name : item.nameAr}
           className="menu-item-img"
           loading="lazy"

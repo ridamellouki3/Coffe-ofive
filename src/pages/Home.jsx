@@ -1,11 +1,12 @@
 import { Link } from 'react-router-dom';
+import { getImg } from '../utils';
 
 export default function Home({ lang }) {
   return (
     <div className="page-content fade-in">
       {/* ─── HERO ─── */}
       <section className="hero">
-        <img src="/hero.png" alt="Cafe O'five interior" className="hero-bg" />
+        <img src={getImg('/hero.png')} alt="Cafe O'five interior" className="hero-bg" />
         <div className="hero-overlay" />
         <div className="hero-content">
           <p className="hero-eyebrow">{lang === 'en' ? 'Welcome to' : 'مرحباً بكم في'}</p>
@@ -106,7 +107,7 @@ export default function Home({ lang }) {
             <div className="stat-desc">{lang === 'en' ? 'Guest Wi-Fi' : 'واي فاي مجاني'}</div>
           </div>
         </div>
-        <img src="/restaurant-table.png" alt="Restaurant table" className="restaurant-img" />
+        <img src={getImg('/restaurant-table.png')} alt="Restaurant table" className="restaurant-img" />
       </section>
     </div>
   );
