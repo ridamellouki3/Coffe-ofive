@@ -596,7 +596,7 @@ body {
 
 .menu-item-img-wrap {
   position: relative;
-  height: 190px;
+  height: 220px;
   overflow: hidden;
 }
 
@@ -608,7 +608,35 @@ body {
 }
 
 .menu-item:hover .menu-item-img {
-  transform: scale(1.04);
+  transform: scale(1.05);
+}
+
+/* 2-COLUMN GRID for small items (supplements) */
+.menu-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 0;
+}
+
+.menu-grid .menu-item {
+  margin-bottom: 0;
+}
+
+.menu-grid .menu-item-img-wrap {
+  height: 140px;
+}
+
+.menu-grid .menu-item-body {
+  padding: 10px 12px;
+}
+
+.menu-grid .menu-item-name {
+  font-size: 15px;
+}
+
+.menu-grid .menu-item-price {
+  font-size: 15px;
 }
 
 .featured-badge {
